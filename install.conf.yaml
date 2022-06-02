@@ -1,5 +1,28 @@
+- defaults:
+    link:
+        relink: true
+
 - clean: ['~']
 
+- create:
+    - ~/.vim/bundle
+    - ~/.zprezto/modules
+
 - link:
+    ~/.alias: alias
+    ~/.tmux.conf: tmux.conf
+    ~/.vimrc: vimrc
+    ~/.p10k.zsh: p10k.zsh
+    ~/.zshrc: zshrc
+    ~/.zprezto: prezto
+    ~/.zpreztorc: zpreztorc
+    ~/.zprofile: zprofile
+    ~/.gitconfig: gitconfig
+    ~/.vim/bundle/Vundle.vim: Vundle.vim
+    ~/.zprezto/modules/zshmarks: zshmarks
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - [vim +PlugInstall +qall, Installing vim plugins]
 
 
