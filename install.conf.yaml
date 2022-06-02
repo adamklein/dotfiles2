@@ -6,6 +6,7 @@
 
 - create:
     - ~/.vim/bundle
+    - ~/.vim/colors
     - ~/.zprezto-contrib
 
 - link:
@@ -19,6 +20,7 @@
     ~/.zprofile: zprofile
     ~/.gitconfig: gitconfig
     ~/.vim/bundle/Vundle.vim: Vundle.vim
+    ~/.vim/colors/solarized.vim: vim-colors-solarized/colors/solarized.vim
     ~/.zprezto-contrib/zshmarks: zshmarks
 
 - shell:

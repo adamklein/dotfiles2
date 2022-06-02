@@ -115,9 +115,7 @@ set incsearch               " Incrementally search while typing a /regex
 
 """" Display
 if has("gui_running")
-    colorscheme industry
-    highlight NonText guifg=#4a4a59
-    highlight SpecialKey guifg=#4a4a59
+    colorscheme solarized
 else
     colorscheme desert
     set nocursorline        " remove cursorline
@@ -301,3 +299,4 @@ function! s:Bclose(bang, buffer)
     execute wcurrent.'wincmd w'
 endfunction
 command! -bang -complete=buffer -nargs=? Bclose call <SID>Bclose('<bang>', '<args>')
+
