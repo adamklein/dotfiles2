@@ -28,7 +28,7 @@ alias libpath='echo -e ${LD_LIBRARY_PATH}//:/\\n}'
 alias which='type -a'
 
 alias g="jump"
-alias b="bookmark"
+alias s="bookmark"
 alias d="deletemark"
 alias b="showmarks"
 

@@ -6,7 +6,7 @@
 
 - create:
     - ~/.vim/bundle
-    - ~/.zprezto/modules
+    - ~/.zprezto-contrib
 
 - link:
     ~/.alias: alias
@@ -19,7 +19,7 @@
     ~/.zprofile: zprofile
     ~/.gitconfig: gitconfig
     ~/.vim/bundle/Vundle.vim: Vundle.vim
-    ~/.zprezto/modules/zshmarks: zshmarks
+    ~/.zprezto-contrib/zshmarks: zshmarks
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
