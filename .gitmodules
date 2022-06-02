@@ -14,3 +14,6 @@
 [submodule "zshmarks"]
 	path = zshmarks
 	url = https://github.com/jocelynmallon/zshmarks.git
+[submodule "vim-colors-solarized"]
+	path = vim-colors-solarized
+	url = http://github.com/altercation/vim-colors-solarized.git
