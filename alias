@@ -63,3 +63,5 @@ alias gclean='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git bran
 # delete all untracked files
 alias gdelete='gms | tail -n +5 | nocolor | awk "{ print $1 }" | xargs rm -rf'
 
+# tailscale
+alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
