@@ -46,6 +46,7 @@ alias gc='git checkout'
 alias gcl='git clone'
 alias gco=fbr
 alias gcam='git commit -am'
+alias gam='git commit --amend --no-edit'
 alias gd='git diff --color'
 alias gl='git log --oneline'
 alias gp='git push'
